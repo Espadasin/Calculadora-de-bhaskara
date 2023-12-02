@@ -7,14 +7,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <div class="calculadora">
     
-    <form action="calculo.php" method="post">
-        <input type="number" name="a" id="A" placeholder="A">
-        <input type="number" name="b" id="B" placeholder="B">
-        <input type="number" name="c" id="C" placeholder="C">
+        <form action="calculo.php" method="post" id="bhaskaraForm">
+            <input type="number" name="a" id="A" placeholder="A">
+            <input type="number" name="b" id="B" placeholder="B">
+            <input type="number" name="c" id="C" placeholder="C">
+        </form>
 
-        <input type="submit" value="Enviar">
-    </form>
+        <button type="submit" form="bhaskaraForm">Enviar</button>
 
+    </div>
 </body>
 </html>

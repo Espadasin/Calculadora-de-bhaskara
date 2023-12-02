@@ -4,3 +4,25 @@ form{
     align-items: center;
     gap: 5px;
 }
+
+input[type='number']{
+    text-align: center;
+}
+
+button{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.calculadora{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 100vw;
+    justify-content: center;
+    gap: 5px;
+}
